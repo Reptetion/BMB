@@ -1,0 +1,28 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reptetion",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "discord-anti-spam": "^2.3.4",
+    "discord.js": "^11.5.1",
+    "enmap": "^5.2.4",
+    "express": "^4.17.1",
+    "fs": "^0.0.2",
+    "install": "^0.13.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "require-all": "^3.0.0",
+    "struct": "^0.0.12",
+    "superagent": "^5.2.1"
+  }
+}
