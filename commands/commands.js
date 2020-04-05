@@ -31,12 +31,13 @@ prefix + 'dog\n' +
 prefix + 'number\n' +
 prefix + '8ball\n' +
 prefix + 'gamble\n' +
-prefix + 'meme'
+prefix + 'meme\n' 
 )
-.addField('Moderation Commands',
+.addField('Staff Commands',
 prefix + 'kick\n' +
 prefix + 'ban\n' +
-prefix + 'purge'
+prefix + 'purge\n' +
+prefix + 'setnickname'
 )
 .addField('Utility Commands',
 prefix + 'poll\n' +
@@ -46,13 +47,17 @@ prefix + 'userinfo\n' +
 prefix + 'report\n' +
 prefix + 'suggest'
 )
-.addField('Owner Commands',
-prefix + 'refresh\n' +
-prefix + 'sethelpmsg'
+.addField('Level Up System',
+prefix + 'profile\n' +
+prefix + 'leaderboard\n' +
+prefix + 'delete'
 )
-.addField('Total Commands', '30 In Total!')
+.addField('Owner Commands',
+prefix + 'refresh' 
+)
+.addField('Total Commands', '34 In Total!')
 .setTimestamp()
-.setFooter('Created By Reptetion#0002', message.author.avatarURL)
+.setFooter('Created By Reptetion#6379', message.author.avatarURL)
 message.channel.send(commandslist)
 
 }

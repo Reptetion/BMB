@@ -13,7 +13,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'It is a certain.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
 
      const ball2 = new Discord.RichEmbed()
     .setColor('#7739C4')
@@ -21,7 +21,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'Concentrate and ask again.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
      
      const ball3 = new Discord.RichEmbed()
     .setColor('#7739C4')
@@ -29,7 +29,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'My sources say no.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
      
      const ball4 = new Discord.RichEmbed()
     .setColor('#7739C4')
@@ -37,7 +37,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'Without a doubt.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
      
      const ball5 = new Discord.RichEmbed()
     .setColor('#7739C4')
@@ -45,7 +45,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'Better not tell you now.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
      
      const ball6 = new Discord.RichEmbed()
     .setColor('#7739C4')
@@ -53,7 +53,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'Outlook not so good.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
      
      const ball7 = new Discord.RichEmbed()
     .setColor('#7739C4')
@@ -61,7 +61,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'Yes.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
     
      const ball8 = new Discord.RichEmbed()
     .setColor('#7739C4')
@@ -69,7 +69,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'No.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
      
      const ball9 = new Discord.RichEmbed()
     .setColor('#7739C4')
@@ -77,7 +77,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'Cannot predict now.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
      
      const ball10 = new Discord.RichEmbed()
     .setColor('#7739C4')
@@ -85,7 +85,7 @@
     .setURL('https://discord.gg/y44zCga')
     .addField('Question:', question)
     .addField('Answer:', 'Yes - definetely.')
-    .setFooter('Created By Reptetion#0002')
+    .setFooter('Created By Reptetion#6379')
      
     const balls = [ball1, ball2, ball3, ball4, ball5, ball6, ball7, ball8, ball9, ball10]
       
