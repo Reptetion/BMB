@@ -7,7 +7,7 @@ let randomnumber = Math.floor(Math.random() * 100).toLocaleString()
 const result = new Discord.RichEmbed()
 .setColor('#7739C4')
 .setDescription(`${randomnumber}`)
-.setFooter('Created By Reptetion#0002')
+.setFooter('Created By Reptetion#6379')
 message.channel.send(result) 
   
 }

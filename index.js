@@ -31,13 +31,40 @@ fs.readdir("./commands/", (err, files) => {
         });
     
 });
+//Events "handler"
+    fs.readdir('./xpsystem/', (err, files) => {
+        if (err) console.log(err);
+        files.forEach(file => {
+            let eventFunc = require(`./xpsystem/${file}`);
+            let eventName = file.split(".")[0];
+            bot.on(eventName, (...args) => eventFunc.run(bot, ...args));
+        });
+    
+});
 
+
+ 
 bot.on("ready", () => console.log("Created By Build My Bot."))
 bot.login(process.env.TOKEN)
 
 bot.on('ready', () => {
 
-bot.user.setActivity('Build My Bot.')
+let prefix = process.env.PREFIX
+
+const activities = [
+`${bot.users.size.toLocaleString()} users!`,
+`${prefix}commands :)`,
+`${bot.guilds.size.toLocaleString()} server(s)!`,
+'Build My Bot'
+];
+
+setInterval(() => {
+let activity = activities[Math.floor(Math.random() * activities.length)];
+bot.user.setActivity(activity, { type: "LISTENING" });
+}, 10000);
+
+bot.user.setStatus("online").catch(console.error);
+  
 
 })
 bot.login(process.env.TOKEN)

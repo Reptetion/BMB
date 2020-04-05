@@ -10,7 +10,7 @@ let stats = new Discord.RichEmbed()
 `Users: ${message.client.users.size.toLocaleString()}\n` +
 `Channels: ${message.client.channels.size.toLocaleString()}`
 )
-.setFooter('Created By Reptetion#0002')
+.setFooter('Created By Reptetion#6379')
 message.channel.send(stats)
 
 }

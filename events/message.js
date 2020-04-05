@@ -3,8 +3,11 @@ const recentCommandUsage = new Set();
 let prefix = process.env.PREFIX  
 
 exports.run = async(client, message) => {
+  
 if (message.author.bot) return;
- 
+  
+if(message.channel.type === 'dm') return message.channel.send('❌ I cannot operate in DMs!')
+   
 if (message.content.startsWith(prefix)) {
   
 if(recentCommandUsage.has(message.author.id)){
@@ -18,8 +21,7 @@ let args = messageArray.slice(1);
 const arg = message.content.slice(prefix.length).split(/ +/);
 const commandName = arg.shift().toLowerCase();
 const commandfile = client.commands.get(commandName) || client.aliases.get(commandName);  
-if(!commandfile) return message.reply("that command doesn't exist!")
-.then(msg => msg.delete(2500));
+if(!commandfile) return;
 commandfile.run(client,message,args);
   
 recentCommandUsage.add(message.author.id);

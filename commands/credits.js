@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 
-const owner = 'Reptetion#0002'
+const owner = 'Reptetion#6379'
 
 exports.run = async(client, message, args) => {
   
@@ -11,7 +11,7 @@ const credits = new Discord.RichEmbed()
 .setDescription(
 '**Owner Of The Bot**: ' + owner + '\n' +
 '**Open Source Name**: Build My Bot\n' +
-'**BMB Developer**: Reptetion#0002\n' +
+'**BMB Developer**: Reptetion#6379\n' +
 '**BMB Founder**: Sleepless Kyru#7615'
 )
 .setTimestamp()

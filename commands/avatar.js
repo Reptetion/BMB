@@ -13,7 +13,7 @@ const avatar = new Discord.RichEmbed()
 .setURL('https://discord.gg/JnafqVN')
 .setImage(`${takepic.user.avatarURL}`)
 .setFooter(`Snapped by ${message.author.tag} for ${takepic.user.tag}!`);
-message.channel.send(avatar).then(message.react("662483599676932118"));
+message.channel.send(avatar)
   
 }
 
