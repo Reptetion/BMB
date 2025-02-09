@@ -13,7 +13,7 @@ The code in this repository is outdated and may not function properly. If you pl
 
 <h2>Credits</h2>
 <h4>Made with ❤️ by <a href="https://github.com/reptetion">Reptetion</a>. Credits to <a href="https://github.com/sleeplesskyru">Sleepless Kyru</a>
-for the original <i>Build My Bot</i> brand.<br><br> Thank you to everyone else, especially the contributers, who helped make this project come to life!</h4><br><br>
+for the original <i>Build My Bot</i> idea.<br><br> Thank you to everyone else, especially the contributers, who helped make this project come to life!</h4><br><br>
 
 <footer>© 2018-2020 Build My Bot By A.C "<i>Reptetion</i>"</footer>
 
