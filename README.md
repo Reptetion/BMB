@@ -1,10 +1,9 @@
 <h1><b>🤖 Build My Bot</b></h2>
 
 <h4>Build My Bot <i>"BMB"</i> is an open source discord bot designed to be an easy solution for disocord server owners to run their very owmn discord bots. 
-Build My Bot offer a wide variety of commands equipped to moderate, manage, and also have some fun in your server. It is easy-to-use and you are able to 
-customize the bot, to suit your won preferences! No coding knowledge is required.</h4>
+Build My Bot offer a wide variety of commands equipped to moderate, manage, and also have some fun in your server. It is free, easy-to-use, and customizable! No coding knowledge is required.</h4>
 
-<h4>To host your very own bot, you will need to have an account in the following:</h4>
+<h4>To host your very own bot, you will need to have an account with the following:</h4>
 ❖ <a href="https://glitch.com/">Glitch.com</a><br><br>
 
 <h2>How To Run</h2>
