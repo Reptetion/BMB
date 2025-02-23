@@ -12,7 +12,7 @@ The code in this repository is outdated and may not function properly. If you pl
 <a href="https://discord.js.org/">discord.js</a> module. Also note that the host is no longer providing free hosting without limitations.</h4><br>
 
 <h2>Credits</h2>
-<h4>Made with ❤️ by <a href="https://github.com/reptetion">Reptetion</a>. Credits to <a href="https://github.com/sleeplesskyru">Sleepless Kyru</a>
+<h4>Created by <a href="https://github.com/reptetion">Reptetion</a>. Credits to <a href="https://github.com/sleeplesskyru">Sleepless Kyru</a>
 for the original <i>Build My Bot</i> idea.<br><br> Thank you to everyone else who helped make this project come to life!</h4><br><br>
 
 <footer>© 2018-2020 Build My Bot</footer>
